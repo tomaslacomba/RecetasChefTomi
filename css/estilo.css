@@ -1,0 +1,142 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: hsl(0, 0%, 0%);
+    color: #ffffff;
+    font-family: 'Georgia', serif;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #000000;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Verdana', sans-serif;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #5e5d5d;
+}
+
+#promociones {
+    background-color: #5f5d5d;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Carnes {
+    background-image: url(../img/carne.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-family: 'Tahoma', sans-serif;
+    padding: 20px;
+}
+
+#Pastas {
+    background-image: url(../img/pastaaa.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-family: 'Tahoma', sans-serif;
+    padding: 20px;
+}
+
+#Postres {
+    background-image: url(../img/postres.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-family: 'Tahoma', sans-serif;
+    padding: 20px;
+}
+
+footer {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 20px 0;
+}
+
+footer .conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .titulo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer .iconos {
+    display: flex;
+    gap: 10px;
+}
+
+footer .iconos img {
+    width: 30px; /* Ajusta el tamaño de los iconos según sea necesario */
+    height: auto;
+}
+
+
+
+nav ul li a,
+section ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4CAF50; 
+    color: white; 
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+nav ul li a:hover,
+section ul li a:hover {
+    background-color: #45a049; 
+}
+
+@media (min-width: 992px) {
+    header, nav ul, section, footer {
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+}
